@@ -1,0 +1,93 @@
+.in-post-name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.in-post-time{
+    background-color: rgb(225, 0, 94);
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 6px 0px 0px;
+   
+   
+}
+.post-by{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 2px;
+    color: rgb(225, 0, 94);
+    font-weight: bold;
+    text-align: center;
+}
+.time-date{
+    display: flex;
+    justify-content: center;
+}
+.in-img{
+    height: 300px;
+}
+.in-post-page{
+    padding: 20px 40px;
+}
+.in-cont p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.in-post-cont{
+    padding: 0px 10vw;
+}
+.comm-title{
+    color: rgb(225, 0, 94);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-comm-text{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px ;
+    padding: 0px 20px;
+    
+    
+}
+.input-comm-but{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(225, 0, 94);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid rgb(225, 0, 94);
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.input-comm-but:hover{
+    background-color: white;
+    color: rgb(225, 0, 94);
+    transition: all 0.3s;
+}
+.input-comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1233px) {
+    .in-post-cont{
+        padding: 0px;
+    }
+
+}

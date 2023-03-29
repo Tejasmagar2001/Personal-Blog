@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Raleway:wght@500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 7px black;
+
+
+}
+
+.bar-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+
+}
+
+.barss {
+    cursor: pointer;
+    border: 4px solid white;
+    height: 4px;
+    width: 40px;
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+
+    height: 90px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(225, 0, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-menu nav ul {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.top-menu nav ul li {
+    padding: 0px 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.top-menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.top-menu nav ul li a:hover, .top-menu-mobo nav ul li a:hover {
+    color: rgb(225, 0, 94);
+    transition: all 0.2s;
+
+}
+label{
+    display: none;
+}
+input[type='checkbox']{
+    display: none;
+}
+.top-menu-mobo{
+    padding-top:20px ;
+    display: none;
+}
+.top-menu-mobo nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-menu-mobo nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+.top-menu-mobo nav ul li a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1233px) {
+    .logo {
+        font-size: 25px;
+    }
+
+    .top-menu nav ul {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bar-menu {
+        display: flex;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+    
+    label{
+        display: block;
+    }
+}

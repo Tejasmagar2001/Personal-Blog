@@ -1,0 +1,33 @@
+.foot-con{
+    background-color: rgb(225, 0, 94) ;
+    height: 100px;
+}
+.copyright{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.website-name{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    color: white;
+}
+.down-menu nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.down-menu nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.down-menu nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
